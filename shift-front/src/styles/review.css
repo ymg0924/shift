@@ -1,0 +1,110 @@
+/* 리뷰 전체 섹션 */
+.review-section {
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #eee;
+}
+
+/* 상단 영역 (리뷰(12) + 평균별점 + 정렬) */
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-title {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avg-rating-box {
+  display: flex;
+  align-items: center;
+}
+
+/* 정렬 셀렉트 */
+.review-sort {
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* 별점 */
+.star-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  color: #ddd;
+}
+
+.star.active {
+  color: #FFD700;
+}
+
+.star-number {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* 리뷰 없을 때 */
+.no-review-text {
+  color: #888;
+  font-size: 14px;
+}
+
+/* 리뷰 카드 */
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 15px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-user {
+  font-size: 13px;
+  color: #888;
+}
+
+/* 리뷰 내용 */
+.review-content {
+  white-space: pre-line;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* 더보기/접기 */
+.review-toggle {
+  font-size: 13px;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 6px;
+  user-select: none;
+}
+
+/* 작성일 */
+.review-date {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+}
