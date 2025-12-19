@@ -1,0 +1,59 @@
+.mypage-bg {
+  background: #f7f9fc !important;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+/* 카드 배경 - 흰색으로 통일 */
+.mypage-card-light {
+  background: #fff !important;
+  border-radius: 1rem !important;
+}
+
+/* 뱃지 색상 통일 */
+.mypage-badge {
+  background: #5b8fc3 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+/* 카드 호버 효과 */
+.mypage-hover {
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.mypage-hover:hover {
+  box-shadow: 0 4px 18px rgba(91, 143, 195, 0.25) !important; 
+  border: 1px solid #5b8fc3 !important;
+  transform: translateY(-2px);
+}
+
+/* 탭 스타일 */
+.mypage-tab .nav-link {
+  color: #6c757d;
+  font-weight: 500;
+  border: none !important;
+  background: transparent !important;
+  transition: all 0.2s;
+  padding: 1rem 1.25rem !important;
+}
+.mypage-tab .nav-link:hover,
+.mypage-tab .nav-link.active {
+  /* 활성 탭 */
+  color: #5b8fc3 !important; 
+  font-weight: 700 !important; 
+  border-bottom: 3px solid #5b8fc3 !important;
+  background-color: transparent !important;
+}
+.mypage-tab .nav-item {
+    margin-bottom: -1px;
+}
+
+
+/* 사이드바 메뉴 활성 상태 */
+.mypage-menu-active {
+  background: #eaf2fb !important;
+  color: #5b8fc3 !important; 
+  font-weight: 700 !important;
+  border-left: 5px solid #5b8fc3 !important; /* 왼쪽 강조 선 */
+}

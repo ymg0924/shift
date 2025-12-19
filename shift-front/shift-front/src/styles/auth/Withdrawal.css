@@ -1,0 +1,101 @@
+.withdrawal-card {
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow:
+    0 0 20px rgba(0, 0, 0, 0.08),
+    0 10px 40px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e5e5e5;
+  padding: 3rem;
+  border: none;
+}
+
+/* 탈퇴 버튼 */
+.btn-danger-custom {
+  background-color: #e03131 !important;
+  border-color: #e03131 !important;
+  color: white !important;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+/* 포인트 뱃지 스타일 */
+.point-badge {
+  background-color: #fff5f5 !important;
+  color: #e03131 !important;
+  border: 1px solid #ffc9c9;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.btn-danger-custom:hover:not(:disabled) {
+  background-color: #c92a2a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(187, 45, 59, 0.4);
+}
+
+.btn-danger-custom:disabled {
+  background-color: #ffc9c9 !important;
+  border-color: #ffc9c9 !important;
+  cursor: not-allowed;
+}
+
+/* 취소 버튼 */
+.btn-cancel-custom {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  color: #212529;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-cancel-custom:hover {
+  background-color: #e9ecef;
+  transform: translateY(-2px);
+}
+
+/* 커스텀 경고 박스 */
+.alert-danger-custom {
+  background-color: #fff !important;
+  border: 1px solid #ffc9c9;
+  color: #495057;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.alert-title-custom {
+  color: #e03131;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 커스텀 정보 박스 */
+.info-card-custom {
+  background-color: #f1f3f5 !important;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 포인트 텍스트 강조 */
+.point-text {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #e03131;
+  letter-spacing: -0.5px;
+}
+
+/* 체크박스 컨테이너 스타일 */
+.agreement-box {
+  border: 1px solid #e03131;
+  background-color: #fff5f5;
+  border-radius: 12px;
+  padding: 1rem;
+}

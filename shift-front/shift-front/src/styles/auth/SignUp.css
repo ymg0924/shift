@@ -1,0 +1,96 @@
+/* 회원가입 카드 컨테이너 */
+.signup-card {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+/* 입력 그룹 */
+.signup-field-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 15px;
+}
+
+/* 라벨 스타일  */
+.signup-label {
+  width: 130px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: #212529;
+  text-align: left;
+}
+
+/* 입력창 영역 */
+.signup-input-area {
+  flex-grow: 1;
+  position: relative;
+}
+
+/* 입력창 */
+.signup-input {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  color: #212529;
+
+  transition:
+    background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+.signup-input:hover,
+.signup-input:focus {
+  background-color: #ffffff;
+  border-color: #5b8fc3 !important;
+  box-shadow: 0 0 0 0.25rem rgba(91, 143, 195, 0.25) !important;
+  outline: none;
+}
+
+/* 회원가입 버튼 */
+.signup-btn {
+  background-color: #5b8fc3 !important;
+  border-color: #5b8fc3 !important;
+  color: white !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #4a7ab0 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 하단 링크 */
+.signup-link:hover {
+  color: #5b8fc3 !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+/* 중복확인, 주소검색 등 서브 버튼 */
+.signup-btn-outline {
+  color: #5b8fc3 !important;
+  border-color: #5b8fc3 !important;
+  background-color: transparent !important;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup-btn-outline:hover:not(:disabled) {
+  background-color: #5b8fc3 !important;
+  color: white !important;
+}
+
+/* 확인 완료(성공) */
+.signup-btn-success {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+  color: white !important;
+}

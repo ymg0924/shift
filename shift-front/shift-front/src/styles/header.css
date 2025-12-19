@@ -1,0 +1,76 @@
+.category-bar {
+  background: #ffffff;
+  padding: 8px 0;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.08);
+}
+
+.category-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.category-nav .category-item {
+  position: relative;
+  font-family: "Pretendard Variable", "Pretendard", system-ui, -apple-system,
+    sans-serif;
+  color: #333;
+  font-weight: 500;             
+  cursor: pointer;
+  padding-bottom: 6px;
+  white-space: nowrap;
+  transition: color 0.25s ease;
+  
+}
+
+/* underline pseudo-element */
+.category-nav .category-item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #5b8fc3, #a7d0ff);
+  transition: width 0.25s ease-out;
+}
+
+.category-nav .category-item:hover {
+  color: #5b8fc3 !important;
+  font-weight: 600;              /* hover 시 살짝 굵게 */
+}
+
+.category-nav .category-item:hover::after {
+  width: 60%;
+}
+
+.category-nav .category-item.active {
+  color: #5b8fc3 !important;
+  font-weight: 600;             
+}
+
+.category-nav .category-item.active::after {
+  width: 60%;
+}
+
+.search-input {
+  background: #ffffff;
+  border: 3px solid #5b8fc3 !important;
+  border-right: 0 !important;
+  border-radius: 8px 0 0 8px !important;
+}
+
+.search-btn {
+  border: 3px solid #5b8fc3 !important;
+  border-left: 0 !important;
+  border-radius: 0 8px 8px 0 !important;
+  background: #ffffff !important;
+}
+
+.header-top {
+  background: #fff;
+  font-weight: 500;
+}

@@ -1,0 +1,53 @@
+/* 선물함 리스트 필터 탭 (캡슐 형태) */
+.gift-filter-btn {
+  border-radius: 50rem !important;
+  padding: 6px 20px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent !important;
+}
+
+/* 활성 탭 */
+.gift-filter-btn.active {
+  background-color: #5b8fc3 !important;
+  border-color: #5b8fc3 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 6px rgba(91, 143, 195, 0.25);
+}
+
+/* 비활성 탭 */
+.gift-filter-btn.inactive {
+  background-color: #fff !important;
+  border-color: #dee2e6 !important;
+  color: #868e96 !important;
+}
+
+/* 비활성 탭 hover */
+.gift-filter-btn.inactive:hover {
+  border-color: #5b8fc3 !important;
+  color: #5b8fc3 !important;
+  background-color: #f8f9fa !important;
+  transform: translateY(-1px);
+}
+
+/* 공통 스타일 */
+.badge-product,
+.badge-voucher {
+  font-size: 0.95rem !important;
+  padding: 8px 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+}
+
+/* 리스트 아이템 배지 (상품/금액권) */
+.badge-product {
+  background-color: #5b8fc3 !important;
+  color: #fff !important;
+  border: 1px solid #5b8fc3 !important;
+}
+
+.badge-voucher {
+  background-color: #fff !important;
+  color: #5b8fc3 !important;
+  border: 1px solid #5b8fc3 !important;
+}

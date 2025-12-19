@@ -1,0 +1,184 @@
+/* 메인 테마 컬러 */
+.text-gift-primary {
+  color: #5b8fc3 !important;
+}
+.bg-gift-light {
+  background-color: #f0f7ff !important;
+  color: #5b8fc3 !important;
+}
+
+/* 카드 공통 */
+.gift-card-custom {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+/* 금액권 */
+.gift-voucher-card {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(91, 143, 195, 0.25);
+  border: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.gift-voucher-header {
+  background: linear-gradient(135deg, #5b8fc3 0%, #4a7ab0 100%);
+  padding: 3rem 2rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift-voucher-header::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15) 0%,
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+.voucher-icon {
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+.voucher-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.voucher-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.gift-voucher-body {
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.voucher-label {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.voucher-value {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #5b8fc3;
+  line-height: 1;
+  letter-spacing: -1.5px;
+}
+
+/* 배송 상태 */
+.delivery-status-box {
+  background-color: #f8f9fa;
+  border: 2px solid #eaf2fb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.delivery-status-text {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #5b8fc3;
+  margin-top: 0.5rem;
+}
+
+/* 액션 버튼 */
+.gift-btn-primary {
+  background-color: #5b8fc3 !important;
+  border-color: #5b8fc3 !important;
+  color: #fff !important;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.gift-btn-primary:hover:not(:disabled) {
+  background-color: #4a7ab0 !important;
+  border-color: #4a7ab0 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(91, 143, 195, 0.25);
+}
+
+.gift-btn-primary:disabled {
+  background-color: #a0bddc !important;
+  border-color: #a0bddc !important;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* 정보 라벨 및 값 */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+.info-label {
+  color: #888;
+}
+.info-value {
+  font-weight: 600;
+  color: #333;
+  text-align: right;
+}
+
+/* 선물 종류 태그 (상품/금액권) */
+.badge-product {
+  background-color: #5b8fc3 !important;
+  color: #fff !important;
+  border: 1px solid #5b8fc3 !important;
+}
+
+.badge-voucher {
+  background-color: #fff !important;
+  color: #5b8fc3 !important;
+  border: 1px solid #5b8fc3 !important;
+}
+
+/* 리뷰 작성 버튼 */
+.gift-btn-outline {
+  background-color: #fff !important;
+  color: #5b8fc3 !important;
+  border: 1px solid #5b8fc3 !important;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.gift-btn-outline:hover {
+  background-color: #5b8fc3 !important;
+  color: #fff !important;
+}

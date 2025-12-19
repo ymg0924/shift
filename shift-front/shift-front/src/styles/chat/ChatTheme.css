@@ -1,0 +1,163 @@
+.messenger-theme {
+  background: linear-gradient(180deg, #f3f7fb 0%, #ffffff 60%);
+}
+
+.messenger-theme .messenger-header {
+  background: linear-gradient(90deg, #5b8fc3 0%, #6da4d8 100%);
+  color: #ffffff;
+  border-bottom: none;
+  box-shadow: 0 4px 12px rgba(91, 143, 195, 0.2);
+}
+
+.messenger-theme .messenger-title {
+  color: #ffffff;
+}
+
+.section-accent {
+  background: #e8f1fb;
+  border-bottom: 1px solid #cbdcf4;
+}
+
+.theme-icon-button {
+  background: rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.theme-icon-button:hover {
+  background: rgba(255, 255, 255, 0.28) !important;
+  color: #ffffff !important;
+}
+
+.primary-pill-btn {
+  background: linear-gradient(135deg, #5b8fc3 0%, #4f7cb2 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  box-shadow: 0 8px 16px rgba(91, 143, 195, 0.24);
+}
+
+.primary-pill-btn:hover,
+.primary-pill-btn:focus {
+  background: #4f7cb2;
+  color: #ffffff;
+}
+
+.outline-pill-btn {
+  border: 1px solid #5b8fc3 !important;
+  color: #5b8fc3 !important;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.outline-pill-btn:hover,
+.outline-pill-btn:focus {
+  background: #5b8fc3 !important;
+  color: #ffffff !important;
+}
+
+.link-light-button {
+  color: #f5f8ff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-light-button:hover {
+  color: #e0ecff !important;
+  text-decoration: underline;
+}
+
+.link-danger-button {
+  color: #ff1d1d !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-danger-button:hover {
+  color: #ffc2cb !important;
+  text-decoration: underline;
+}
+
+.messenger-theme .form-control:focus,
+.messenger-theme .form-select:focus {
+  border-color: #5b8fc3;
+  box-shadow: 0 0 0 0.25rem rgba(91, 143, 195, 0.2);
+}
+
+.messenger-theme .input-group-text {
+  background: #e2edfb;
+  border-color: #c5d8f4;
+  color: #4f7cb2;
+}
+
+.messenger-theme .list-group-item {
+  transition: background-color 0.2s ease;
+}
+
+.messenger-theme .list-group-item:hover {
+  background: #f1f6fc;
+}
+
+.messenger-theme .messenger-placeholder {
+  background: linear-gradient(180deg, #eaf2fb 0%, #f7fbff 100%);
+}
+
+.messenger-room-navbar {
+  background: linear-gradient(90deg, #5b8fc3 0%, #6da4d8 100%);
+  color: #ffffff;
+  border-bottom: none !important;
+  box-shadow: 0 4px 12px rgba(91, 143, 195, 0.2);
+}
+
+.messenger-room-navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.messenger-room-navbar .btn-close-chat {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.messenger-room-navbar .btn-close-chat:hover {
+  background: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+}
+
+.action-chip {
+  background: #e2edfb;
+  color: #365c85;
+  border-radius: 14px;
+  padding: 8px 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-chip .badge {
+  background: #5b8fc3;
+  color: #ffffff;
+}
+
+.theme-card {
+  background: #ffffff;
+  border: 1px solid #d6e4f6;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(91, 143, 195, 0.16);
+}
+
+.section-label {
+  color: #4f7cb2;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}

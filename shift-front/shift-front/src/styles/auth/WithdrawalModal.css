@@ -1,0 +1,149 @@
+/* 회원 비밀번호 인증 모달 */
+
+/* 모달 컨테이너 */
+.password-confirm-modal .modal-content {
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* 입력창 스타일 */
+.password-modal-input {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  color: #495057;
+}
+
+.password-modal-input:focus {
+  background-color: #ffffff;
+  border-color: #5b8fc3;
+  box-shadow: 0 0 0 4px rgba(91, 143, 195, 0.1);
+  outline: none;
+}
+
+.password-modal-input::placeholder {
+  color: #adb5bd;
+  font-size: 0.95rem;
+}
+
+/* 안내 문구 */
+.password-guide-text {
+  color: #868e96;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* 확인 버튼 */
+.btn-confirm-custom {
+  background-color: #5b8fc3 !important;
+  border-color: #5b8fc3 !important;
+  color: white !important;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 12px;
+  transition: all 0.2s;
+}
+
+.btn-confirm-custom:hover {
+  background-color: #4a7ab0 !important;
+  transform: translateY(-1px);
+}
+
+/* 취소 버튼 */
+.btn-cancel-light {
+  background-color: #f1f3f5 !important;
+  border: 1px solid #f1f3f5 !important;
+  color: #495057 !important;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.btn-cancel-light:hover {
+  background-color: #e9ecef !important;
+}
+
+/* ------ 회원탈퇴 모달 ------ */
+
+/* 모달 전체 둥글게 & 그림자 */
+.point-warning-modal .modal-content {
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* 포인트 표시 박스 */
+.point-display-box {
+  background-color: #fff5f5;
+  border: 1px solid #ffc9c9;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.point-display-label {
+  font-size: 0.9rem;
+  color: #868e96;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.point-display-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #e03131;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+/* 경고 리스트 스타일 */
+.warning-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.warning-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: #495057;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* 리스트 앞 아이콘  */
+.warning-list li::before {
+  content: "!";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffe3e3;
+  color: #e03131;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 하단 버튼 영역 여백 */
+.modal-footer-custom {
+  border-top: none;
+  padding-bottom: 0.5rem;
+  display: flex;
+  gap: 12px;
+}

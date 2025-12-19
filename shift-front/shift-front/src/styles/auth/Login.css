@@ -1,0 +1,29 @@
+/* src/pages/auth/Login.css */
+
+/* 로그인 버튼 호버 효과 */
+.login-btn-hover {
+  transition: all 0.2s ease-in-out;
+}
+.login-btn-hover:hover {
+  background-color: #4a7ab0 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 입력창(Input) 호버 및 포커스 효과 */
+.login-input-hover:hover,
+.login-input-hover:focus {
+  border-color: #5b8fc3 !important;
+  background-color: #f1f3f5;
+  box-shadow: 0 0 0 0.25rem rgba(91, 143, 195, 0.25) !important;
+}
+
+/* 텍스트 링크(아이디 찾기 등) 호버 효과 */
+.login-link-hover {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.login-link-hover:hover {
+  color: #5b8fc3 !important;
+  text-decoration: underline !important;
+}
